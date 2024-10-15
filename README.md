@@ -1,1 +1,2 @@
 # Android_cashbook
+一个通过Android_Studio制作的，JAVA和MySQL的简单记账本
