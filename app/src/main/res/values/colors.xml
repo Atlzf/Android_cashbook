@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="maincolor">#E8B4A3</color>
+    <color name="hintcolor">#393232</color>
+    <color name="textbackground">#FAA58B</color>
+    <color name="appnamecolor">#553F46</color>
+    <color name="buttoncolor">#C88FF1</color>
+    <color name="homepagecolor">#F17B65</color>
+    <color name="cardcolor">#EEA3F6</color>
+    <color name="cashlist">#EEA3F6</color>
+</resources>

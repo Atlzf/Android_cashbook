@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="918dp"
+    android:id="@+id/fragment_user_setting"
+    android:background="@color/maincolor"
+    tools:context=".user_settingFragment">
+
+    <ImageButton
+        android:id="@+id/userimage"
+        android:layout_width="202dp"
+        android:layout_height="194dp"
+        android:background="@color/maincolor"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo3"
+        android:contentDescription="@string/user_image_change"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.184" />
+
+    <TextView
+        android:id="@+id/textViewusernamesetting"
+        android:layout_width="203dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/bordersetting"
+        android:contentDescription="@string/usernamesetting_description"
+        android:text="@string/usernamesetting"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/userimage"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/userimage"
+        app:layout_constraintTop_toBottomOf="@+id/userimage"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="162dp"
+        android:layout_height="68dp"
+        android:text="@string/Exit"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewusernamesetting"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/textViewusernamesetting"
+        app:layout_constraintTop_toBottomOf="@+id/textViewusernamesetting"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="162dp"
+        android:layout_height="68dp"
+        android:text="@string/password_changing"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/textViewusernamesetting"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/textViewusernamesetting"
+        app:layout_constraintTop_toBottomOf="@+id/textViewusernamesetting"
+        app:layout_constraintVertical_bias="0.673" />
+</androidx.constraintlayout.widget.ConstraintLayout>

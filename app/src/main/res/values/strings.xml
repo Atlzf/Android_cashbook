@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">喵呜记账</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="loginbutton">登录</string>
+    <string name="registerbutton">注册</string>
+    <string name="targetbutton">小目标</string>
+    <string name="accoutbutton">记账本</string>
+    <string name="littletarget">想赚一个小目标</string>
+    <string name="cardtext1">总共收支:</string>
+    <string name="cardtext2">收入</string>
+    <string name="cardtext3">支出</string>
+    <string name="contentdescriptionadd">添加收支</string>
+    <string name="contentdescriptiongoal">设置我的目标</string>
+    <string name="contentdescriptionme">设置个人信息</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="password2">"Enter your password again"</string>
+    <string name="user_agreement">我同意《用户协议》</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="usernamesetting"><u>username</u></string>
+    <string name="user_image_change"><u>点击修改用户头像</u></string>
+    <string name="usernamesetting_description">点击修改用户名</string>
+    <string name="Exit">退出登录</string>
+    <string name="password_changing">修改密码</string>
+    <string name="eventname">请输入收入/支出事件</string>
+    <string name="incomestring">收入</string>
+    <string name="paymentstring">支出</string>
+    <string name="typechoose">账单类型</string>
+    <string name="descriptionstring">请输入详细描述</string>
+    <string name="inputnumberstring">请输入金额（单位：元）</string>
+    <string name="recycleviewstring">收入/支出</string>
+    <string name="recycleviewprice">金额</string>
+    <string name="save">保存</string>
+    <string name="remembertext">记住密码</string>
+</resources>
